@@ -5,14 +5,19 @@
 	</head>
 	<body>
 		<!-- how to use Forms -->
-		<form method="GET" action="">		
-			<label for="name">Name</label>
-			<input type="text" id="name" name="name" placeholder="Name" required /><br /><br />
-			<label for="email">Email</label>
-			<input type="email" id="email" name="myemail" placeholder="Email" required /><br /><br />
-						
+		<form method="GET" action="">
+			<!-- checkboxes -->
+			<h3>Games you play</h3>		
+			<input type="checkbox" id="bsk" name="game1" value="Basketball"/>
+ 			<label for="bsk">Basketball</label><br /><br />
+			<input type="checkbox" id="fball" name="game2" value="Football" />
+ 			<label for="fball">Football</label><br /><br />
+			<input type="checkbox" id="vball" name="game3" value="Vollyball" />
+ 			<label for="vball">Vollyball</label>
+			
+			<br /><br />			
 			<input type="submit" value="Register" />
-			<input type="reset" value="clear" />
+			
 			
 		</form>
 
