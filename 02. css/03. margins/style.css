@@ -3,14 +3,31 @@
 }
 
 /* it is css comment */
-.sulman{      
+.div1{      
 background-color: yellow;
 text-transform: uppercase;	
 border: 3px solid red;
 /*
 border-radius: 5px 10px 30px 1px;
 height: 200px;
+margin-left: 50px;
+margin-bottom: 30px;
 */
 width: 225px;
 padding: 20px 10px;
+margin: 10px auto;
 }
+
+.div2{      
+background-color: pink;
+text-transform: uppercase;	
+border: 3px solid green;
+width: 225px;
+padding: 20px 10px;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+/*
+width + paddingLeft + paddingRight + borderLeftAndRight + MarginLR
+*/
