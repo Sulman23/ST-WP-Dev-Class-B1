@@ -1,26 +1,3 @@
-table {
-	border: 1px solid blue;
-	width: 100%;
-	border-spacing: 30px;
-	empty-cells: hide;
+ul {
+	list-style-type: none;
 }
- th {
-	height: 50px;
-	border: 1px solid black;
-}
-
-tr {
-	border: 1px solid black;
-} 
-
-td {
-	/*
-	border-bottom: 1px solid black;
-	*/
-	border: 1px solid black;
-	text-align: center;
-	vertical-align: bottom;
-	padding: 5px;	
-}
-
-tr:hover {background-color: coral;}
